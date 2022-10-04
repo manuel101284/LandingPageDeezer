@@ -1,0 +1,416 @@
+/* Manuel Ricardo Castellanos */
+/* Imitación Landing Page Deezer */
+
+@font-face{
+    font-family: 'MabryPro';
+    font-size: normal;
+    font-weight: normal;
+    src: url('/fonts/MabryPro.otf') format("opentype");
+}
+
+body{
+    font-family: "MabryPro";
+    background-color: #131217;
+    color: white;
+}
+
+.titulo .titulo1{
+    font-size: 40px;
+    max-width: auto;
+    max-height: 500px;
+    border: 0;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#tigo{
+    font-size: 12px;
+    margin-top: 5px; 
+    margin-right: auto;
+    font-family: 'Roboto';
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: auto;
+    font-family: 'Roboto';
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#idioma{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 100px;
+    font-family: 'Roboto';
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo1{
+    padding: 0px;
+    margin-right: 120px;
+    width: 117px;
+}
+
+#logo2{
+    padding: 0px;
+    margin-left: 520px;
+    width: 200px;
+}
+
+.imagen1{
+    width: auto;
+    display: flex;
+    padding: 0px;
+    border: 0px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.containerx{
+    max-width: 200px;
+    height: 36px;
+    border: 1px #92929D solid;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerxx{
+    max-width: 200px;
+    height: 36px;
+    border: 1px white solid;
+    padding: 4px 16px 4px 16px;
+    border-radius: 30px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1{
+    max-width: auto;
+    height: 115px;
+    /* border: 3px black solid; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container{
+    max-width: 600px;
+    max-height: 281;
+    border: 3px black solid;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.element{
+    text-align: center;
+}
+
+.c1{
+    width: 600;
+    height: 281;
+    padding: 24px 40px 16px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 48px;
+    background: linear-gradient(57.8deg, #6b42b4 9.75%, #943aab 95.44%);
+}
+
+.c2{
+    width: 600;
+    height: 281;
+    padding: 24px 40px 16px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 48px;
+    background: linear-gradient(53.13deg, #dc4c11 10.71%, #feab2e);
+}
+
+.c3{
+    width: 600;
+    height: 379;
+    padding: 24px 40px 16px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 48px;
+    background: linear-gradient(180deg, #202122, #3a3b47 55.56%);
+}
+
+.c4{
+    max-width: 440;
+    height: 479;
+    padding: 24px 40px 16px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 20px;
+    background: linear-gradient(69.06deg, #b84fdd -26.76%, #4965f4 44.6%, #2efb74 132.54%);
+}
+
+.c5{
+    max-width: 440;
+    height: 367;
+    padding: 24px 40px 16px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 20px;
+    background: linear-gradient(69.06deg, #b84fdd -26.76%, #4965f4 44.6%, #2efb74 132.54%);
+}
+
+.c6{
+    max-width: 440;
+    height: 379;
+    padding: 24px 40px 16px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 100px;
+    background: linear-gradient(69.06deg, #b84fdd -26.76%, #4965f4 44.6%, #2efb74 132.54%);
+}
+
+.c7{
+    max-width: 600;
+    height: 379;
+    padding: 16px 40px 8px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 0;
+    background: transparent;
+}
+
+.c8{
+    max-width: 600;
+    height: 379;
+    padding: 16px 40px 8px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 0;
+    background: transparent;
+}
+
+.c9{
+    max-width: 600;
+    height: 379;
+    padding: 16px 40px 8px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 0;
+    background: transparent;
+}
+
+.c10{
+    max-width: 600;
+    height: 379;
+    padding: 16px 40px 8px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 0;
+    background: transparent;
+}
+
+.c11{
+    max-width: 600;
+    height: 379;
+    padding: 16px 40px 8px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 0;
+    background: transparent;
+}
+
+.c12{
+    color: #92929D;
+    font-size: 12px;
+    line-height: 220%;
+    max-width: 590px;
+    height: 379;
+    padding: 16px 40px 8px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 120px;
+    background: transparent;
+}
+
+.c13{
+    color: #92929D;
+    font-family: 'Roboto';
+    padding: 16px 40px 8px 40px;
+    border: 0px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 0;
+    background: transparent;
+}
+
+.container2{
+    margin: 40px auto 10px;
+
+    max-width: 300px;
+    height: 115px;
+    /* border: 3px black solid; */
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.container3{
+    max-width: auto;
+    max-height: 650;
+    color: #92929D;
+    font-family: 'Roboto';
+    padding: 24px 24px 24px 24px;    
+    /* border: 3px black solid; */
+    border-radius: 5px;
+    margin: 8px 8px 8px 8px;
+    display: flex;
+    background: transparent;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.container4{
+    max-width: auto;
+    height: 100px;
+    /* border: 3px black solid; */
+    padding: 1px;
+    margin: 10px auto 100px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.boton{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border:0px;
+    height: 50px;
+    max-width: 250px;
+    border-radius: 70px;
+    padding: 6px 15px 6px 15px;
+    text-align: center;
+    line-height: 14px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.boton:hover {
+    color: black;
+    background-color: #ffffff;
+    border-radius: 70px;
+}
+
+.boton1{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border:0px;
+    height: 50px;
+    max-width: 250px;
+    border-radius: 70px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    line-height: 14px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.boton2{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border:0px;
+    height: 50px;
+    max-width: 350px;
+    border-radius: 70px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    line-height: 14px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+ul{
+    font-size: 15px;
+    list-style: none;
+    line-height: 42px;
+}
+
+.s1{
+    font-size: 16px;
+    font-style: bold;
+    color: white;
+}
+
+.s2{
+    font-size: 36px;
+    font-style: bold;
+    color: white;
+}
+
+.redes{
+    display: flex;
+    margin-left: 100px;
+    width: 200px;
+}
